@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>payment</title>
+    </head>
+    <body  bgcolor="pink">
+
+
+
+
+
+
+
+
+        <h1>PAYMENT FORM</h1>
+        <P>REQUIRED FIELDS ARE FOLLLOWED BY *</P>
+        <h2>CONTACT INFORMATION</h2>
+        <form>
+            <p>NAME:* <INPUT type="text" name="name" required></p>
+                <fieldset>
+                    <legend>GENDER*</legend>
+                <p>male<input type="radio" name="gender" id="male" required> female<input type="radio" name="gender" id="female" required> others<input type="radio" name="gender" required>
+                </p>
+            </fieldset>
+            <P>ADDRESS:* <textarea name="ADREESS" id="address" cols="'90" rows="10" required></textarea></P>
+            <p>E-MAIL: *<input type="email" name="email" id="email" required></p>     
+            <p>PINCODE: *<input type="number" name="pincode" id="number" required></p> 
+         
+
+
+
+
+
+            <h2>PAYMENT INFORMATION</h2>
+            <h4>PAYMENT DETAILS</h4>
+            <P>CARD TYPE: * 
+                <select name="CARD-TYPE" id="CARD-TYPE" required>
+                    <option value="">---Select a Card Type---</option>
+                    <option value="rupay">RUPAY</option>
+                    <option value="visa">VISA</option>
+                    <option value="mastercard">MASTERCARD</option>
+                </select>
+                </P>
+            <P>CARD NUMBER: *<input type="NUMBER" name="card number" id="card number" required></P>
+            <P>EXPIRATION DATE: *<input type="date" name="exp" id="exp" required></P>
+            <P>CVV: *<input type="password" name="cvv" id="cvv" required></P>
+            <input type="submit" value="PAY NOW">
+        </form>
+            
+            
+    </body>
+</html> 
